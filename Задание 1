@@ -1,0 +1,3 @@
+n = input("Введите стоимость биткоина в рублях").strip()
+result = n[-3]
+print(result)
