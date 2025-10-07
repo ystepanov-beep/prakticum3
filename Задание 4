@@ -1,0 +1,7 @@
+x, y, n = map(int, input().split())
+tkop = (x * 100 + y) * n
+rub = tkop // 100
+kop = tkop % 100
+rw = "рубль" if rub == 1 else "рубля" if 2<=rub<=4 else "рублей" 
+kw = "копейка" if kop == 1 else "копейки" if 2<=kop<=4 else "копеек"
+print(f"{rub} {rw} {kop} {kw}")
